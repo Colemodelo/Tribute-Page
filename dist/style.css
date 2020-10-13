@@ -1,0 +1,65 @@
+body{
+  font-family: Helvetica, Roboto;
+  background-image: linear-gradient(white, black);
+}
+#main{
+ background-image: linear-gradient(white, gray, black);
+ margin: auto; 
+}
+#title{
+  text-align: center;
+  text-decoration: underline;
+}
+#title-text {
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+#img-div{
+  display: block;
+  border: 1px solid black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 95%;
+  margin: auto;
+}
+#img-caption{
+  background-image: linear-gradient(white, gray);
+  border: 1px solid black;
+  width: 95%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: auto;
+  text-align: center;
+}
+#tribute-info{
+  display: block;
+  background-image: linear-gradient(white, gray);
+  width: 75%;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: left;
+  padding: 15px 15px 15px 15px;
+}
+#tribute-info p {
+  font-style: italic;
+  text-align: center;
+}
+#tribute-link{
+}
+#tribute-info h2 {
+  text-decoration: underline;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 1px;
+}
+ul {
+  list-style-position: inside;
+}
+li{
+  padding-bottom: 10px;
+}
+#tribute-info h3 {
+ text-align: center;
+}
